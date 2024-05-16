@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="@Url.Action("GetAll", "Product")">All Products</a>
+            <a href="@Url.Action("Add", "Product")">Add Product</a>
+        </nav>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
